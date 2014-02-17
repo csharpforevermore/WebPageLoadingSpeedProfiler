@@ -1,0 +1,9 @@
+* Web Page Loading Speed Profiler
+
+Detects how long a list of URL's each take to load.
+
+Add all URLs to the file "Urls.txt". When the program is ran, it will go through each newline, and try to load that URL. The time taken will then be shown.
+
+Released under GPL version 2 license, February 2014.
+
+By Chris Randle of Crantech Solutions Ltd.

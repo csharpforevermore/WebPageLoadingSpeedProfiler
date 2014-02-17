@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ScriptCs.FluentAutomation</id>
+    <version>1.0.3.4</version>
+    <title>ScriptCs.FluentAutomation</title>
+    <authors>Brandon Stirnaman</authors>
+    <owners>Brandon Stirnaman</owners>
+    <projectUrl>http://fluent.stirno.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ScriptCs script pack for Fluent Automation</description>
+    <releaseNotes>Updates to support using PageObjects within tests</releaseNotes>
+    <copyright>Copyright ©  2014</copyright>
+    <language>en-US</language>
+    <tags>ScriptCs F14N PhantomJS Phantom WatiN Selenium Fluent Automation API</tags>
+    <dependencies>
+      <dependency id="FluentAutomation.Core" version="2.3.0.0" />
+      <dependency id="ScriptCs.Contracts" version="0.9.0" />
+    </dependencies>
+    <references>
+      <reference file="ScriptCs.FluentAutomation.dll" />
+    </references>
+  </metadata>
+</package>
